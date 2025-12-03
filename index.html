@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Uravo</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header__wrapper">
+            <div class="header__wrapper__left-side">
+                <div class="header__logo">
+                    <img src="./assets/images/image 87.svg" alt="">
+                </div>
+                <nav>
+                    <ul class="header__navigation">
+                        <li><a href="#">ホームページ</a></li>
+                        <li><a href="#services">サービス</a></li>
+                        <li><a href="#company">会社</a></li>
+                        <li><a href="#pricing">価格設定</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__wrapper__right-side">
+                <div>
+                    <button class="header__btn"><span>資料請求する</span></button>
+                </div>
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#company">Pricing</a></li>
+                <li><a href="#pricing">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero__left-side">
+                <h1 class="section__title ">今の販売管理ツールでお悩みなら</h1>
+                <div class="hero__descriptions">
+                    <div class="hero__price">
+                        <span>月額3.3</span>
+                        <span>万円から使える</span>
+                    </div>
+                    <div class="hero__solutions">
+                        <div>
+                            <span>クラウドソリューション</span>
+                            <img src="./assets/images/Frame 38011.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/images/title.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="hero__link">
+                        <span>資料請求・導入のご相談はこちらから <button>▶</button></span>
+                    </div>
+                </div>
+                <div class="hero__btns">
+
+                </div>
+            </div>
+            <div class="hero__right-side">
+                <img src="./assets/images/hero_img.svg" alt="">
+            </div>
+        </section>
+
+         <section class="problems">
+            <div class="container">
+                <h1 class="section__title problems__title">販売管理ツールはどれも同じように見えるけど、
+                    実際に導入してみたらちょっとした不満が山積み。。。
+                </h1>
+                <div class="problems__cards__wrapper">
+                    <div class="problems__card">
+                        <div class="card__title">
+                            <span>費用のお悩み</span>
+                        </div>
+                        <ul class="card__body">
+                            <li><span>毎月のライセンス料が高くて辛い</span></li>
+                            <li><span>今からツールを変えようとすると</span></li>
+                            <li><span>データ移行だけで何百万と必要になってしまう</span></li>
+                            <li><span>システム改修は費用が高い</span></li>
+                            <li><span>ライセンス料以外にサーバー維持費など毎月の支払いが高くなっている</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="problems__card">
+                        <div class="card__title">
+                            <span>使いづらさのお悩み</span>
+                        </div>
+                        <ul class="card__body">
+                            <li><span>今のシステムでは足りない機能がある</span></li>
+                            <li><span>何度も同じ入力作業に飽き飽きしている</span></li>
+                            <li><span>紙での契約もまだまだ使う必要がある</span></li>
+                            <li><span>今の業務にピッタリ合うツールがわからない</span></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="problems__card">
+                        <div class="card__title">
+                            <span>外部アプリ連携でのお悩み</span>
+                        </div>
+                        <ul class="card__body">
+                            <li><span>ECから都度販売データをインポートしてる</span></li>
+                            <li><span>会社の都合で会計ツールとの連携が必要</span></li>
+                            <li><span>結局レポートはEXCELでやっている</span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="company" class="company-history">
+            <div class="container">
+                <h1 class="section__title">私たちは中小企業のシステムを50年支援し続けてきました。</h1>
+                <div class="company-history__grid">
+                    <div class="company-history__card company-history__card--large">
+                        <div class="company-history__card-header">
+                            <span class="company-history__card-number">01</span>
+                            <h2>費用のお悩み</h2>
+                        </div>
+                        <div class="company-history__card-body">
+                            <div class="company-history__pricing">
+                                <div class="company-history__pricing-description">
+                                    法制度改正やシステムのバージョンアップによる、新たなシステム改変費用が不要です。 サブスクリプション型の為、長期的な利用・コスト管理も可能です。
+                                </div>
+                                <table class="company-history__pricing-table">
+                                    <thead>
+                                        <tr>
+                                            <th>&lt;モデルプラン&gt;</th>
+                                            <th>5ユーザー</th>
+                                            <th>10ユーザー</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>初期費用</td>
+                                            <td>¥350,450</td>
+                                            <td>¥400,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>月額利用料</td>
+                                            <td>¥533,000</td>
+                                            <td>¥50,000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="company-history__card company-history__card--small">
+                        <div class="company-history__card-header">
+                            <span class="company-history__card-number">02</span>
+                            <h2>導入後も安心のサポート体制</h2>
+                        </div>
+                        <div class="company-history__card-body">
+                            サポートセンターでわからないこと、ご相談はいつでも受付。簡単操作、2重入力不要でミスを防止します。
+                        </div>
+                    </div>
+
+                    <div class="company-history__card company-history__card--small">
+                        <div class="company-history__card-header">
+                            <span class="company-history__card-number">03</span>
+                            <h2>御社独自にカスタマイズ</h2>
+                        </div>
+                        <div class="company-history__card-body">
+                            どうしても避けられない運用や、追加機能のご要望にもお応えできます。
+                        </div>
+                    </div>
+
+                    <div class="company-history__card company-history__card--small">
+                        <div class="company-history__card-header">
+                            <span class="company-history__card-number">04</span>
+                            <h2>クラウド管理なので安心</h2>
+                        </div>
+                        <div class="company-history__card-body">
+                            クラウドサービスの為、サーバー維持管理が導入会社様では不要
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section__title">ー　ソルクラでできるコストカット　ー</h1>
+                <div class="services__wrapper">
+                    <div class="services__card">
+                        <div class="services__card__header">
+                            <span>毎月手動で送っていた請求書送付を自動化</span>
+                        </div>
+                        <div class="services__card__body">
+                            <p class="services__card__subtitle"><span>年100万</span>円の削減</p>
+                            <div class="services__small-cards-wrapper">
+                                <div class="services__small-card">
+                                    <div>
+                                        <span>追加10時間</span>
+                                    </div>
+                                    <div>
+                                        <span>作業時間30時間</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/arrow-square-right.svg" alt="">
+                                </div>
+                                <div class="services__small-card">
+                                    <div class="small__card__title">
+                                        <span>追加10時間</span>
+                                    </div>
+                                    <div>
+                                        <span>作業時間30時間</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card__header">
+                            <span>毎月手動で送っていた請求書送付を自動化</span>
+                        </div>
+                        <div class="services__card__body">
+                            <p class="services__card__subtitle"><span>年100万</span>円の削減</p>
+                            <div class="services__small-cards-wrapper">
+                                <div class="services__small-card">
+                                    <div>
+                                        <span>追加10時間</span>
+                                    </div>
+                                    <div>
+                                        <span>作業時間30時間</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/arrow-square-right.svg" alt="">
+                                </div>
+                                <div class="services__small-card">
+                                    <div class="small__card__title">
+                                        <span>追加10時間</span>
+                                    </div>
+                                    <div>
+                                        <span>作業時間30時間</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card__header">
+                            <span>毎月手動で送っていた請求書送付を自動化</span>
+                        </div>
+                        <div class="services__card__body">
+                            <p class="services__card__subtitle"><span>年100万</span>円の削減</p>
+                            <div class="services__small-cards-wrapper">
+                                <div class="services__small-card">
+                                    <div>
+                                        <span>追加10時間</span>
+                                    </div>
+                                    <div>
+                                        <span>作業時間30時間</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/arrow-square-right.svg" alt="">
+                                </div>
+                                <div class="services__small-card">
+                                    <div class="small__card__title">
+                                        <span>追加10時間</span>
+                                    </div>
+                                    <div>
+                                        <span>作業時間30時間</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <div class="services__card__header">
+                            <span>毎月手動で送っていた請求書送付を自動化</span>
+                        </div>
+                        <div class="services__card__body">
+                            <p class="services__card__subtitle"><span>年100万</span>円の削減</p>
+                            <div class="services__small-cards-wrapper">
+                                <div class="services__small-card">
+                                    <div>
+                                        <span>追加10時間</span>
+                                    </div>
+                                    <div>
+                                        <span>作業時間30時間</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/arrow-square-right.svg" alt="">
+                                </div>
+                                <div class="services__small-card">
+                                    <div class="small__card__title">
+                                        <span>追加10時間</span>
+                                    </div>
+                                    <div>
+                                        <span>作業時間30時間</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="campaign-cta">
+            <div class="container">
+                <div class="campaign-cta__content">
+                    <div class="campaign-cta__header">
+                        <div class="campaign-cta__badge">
+                            毎月3社 <br>限定
+                        </div>
+                        <h2 class="campaign-cta__title">
+                            初期費用無料<br>
+                            キャンペーン実施中
+                        </h2>
+                        <span class="campaign-cta__slash campaign-cta__slash--left">\</span>
+                        <span class="campaign-cta__slash campaign-cta__slash--right">/</span>
+                    </div>
+                    <a href="#" class="campaign-cta__button">
+                        資料請求・導入のご相談はこちらから
+                        <span class="campaign-cta__arrow">▶</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="business-efficiency">
+            <div class="container">
+                <h2 class="section__title">
+                    <span class="business-efficiency__title-dash">—</span>
+                    業務効率をUPさせる機能が充実
+                    <span class="business-efficiency__title-dash">—</span>
+                </h2>
+
+
+                <div class="business-efficiency__cards">
+                    <div class="business-efficiency__card">
+                        <div class="business-efficiency__card-header">
+                            <img src="./assets/images/function-process 1.svg" alt="">
+                            <h3>帳票管理機能</h3>
+                        </div>
+                        <div class="business-efficiency__card-body">
+                            テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス
+                        </div>
+                    </div>
+
+                    <div class="business-efficiency__card">
+                        <div class="business-efficiency__card-header">
+                            <img src="./assets/images/function-process 1.svg" alt="">
+                            <h3>帳票管理機能</h3>
+                        </div>
+                        <div class="business-efficiency__card-body">
+                            テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス
+                        </div>
+                    </div>
+
+                    <div class="business-efficiency__card">
+                        <div class="business-efficiency__card-header">
+                            <img src="./assets/images/function-process 1.svg" alt="">
+                            <h3>帳票管理機能</h3>
+                        </div>
+                        <div class="business-efficiency__card-body">
+                            テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス
+                        </div>
+                    </div>
+                    <div class="business-efficiency__card">
+                        <div class="business-efficiency__card-header">
+                            <img src="./assets/images/function-process 1.svg" alt="">
+                            <h3>帳票管理機能</h3>
+                        </div>
+                        <div class="business-efficiency__card-body">
+                            テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス
+                        </div>
+                    </div>
+                    <div class="business-efficiency__card">
+                        <div class="business-efficiency__card-header">
+                            <img src="./assets/images/function-process 1.svg" alt="">
+                            <h3>帳票管理機能</h3>
+                        </div>
+                        <div class="business-efficiency__card-body">
+                            テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス
+                        </div>
+                    </div>
+                    <div class="business-efficiency__card">
+                        <div class="business-efficiency__card-header">
+                            <img src="./assets/images/function-process 1.svg" alt="">
+                            <h3>帳票管理機能</h3>
+                        </div>
+                        <div class="business-efficiency__card-body">
+                            テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="integrations">
+            <div class="container">
+                <h2 class="section__title">ー　外部ツールとの連携も可能　ー</h2>
+                <div class="integrations__title__image">
+                    <img src="./assets/images/title.svg" alt="">
+                </div>
+                <div class="integrations__wrapper">
+                    <img src="./assets/images/Frame 38053.svg" alt="">
+                    <div class="integrations__cards__wrapper">
+                        <div class="integrations__card">
+                            <div>EC</div>
+                            <div>
+                                <img src="./assets/images/Frame 38050.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="integrations__card">
+                            <div>CRM</div>
+                            <div>
+                                <img src="./assets/images/hubspot.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="integrations__card">
+                            <div>会計</div>
+                            <div>
+                                <img src="./assets/images/freee.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="integrations__card">
+                            <div>倉庫</div>
+                            <div>
+                                <img src="./assets/images/logiles.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="campaign-cta">
+            <div class="container">
+                <div class="campaign-cta__content">
+                    <div class="campaign-cta__header">
+                        <div class="campaign-cta__badge">
+                            毎月3社 <br>限定
+                        </div>
+                        <h2 class="campaign-cta__title">
+                            初期費用無料<br>
+                            キャンペーン実施中
+                        </h2>
+                        <span class="campaign-cta__slash campaign-cta__slash--left">\</span>
+                        <span class="campaign-cta__slash campaign-cta__slash--right">/</span>
+                    </div>
+                    <a href="#" class="campaign-cta__button">
+                        資料請求・導入のご相談はこちらから
+                        <span class="campaign-cta__arrow">▶</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-examples">
+            <div class="container">
+                <h1 class="section__title">ー　サービス料金　ー</h1>
+                <table class="pricing-examples__table">
+                    <thead>
+                        <tr>
+                            <th>＜モデルプラン＞</th>
+                            <th>5ユーザー</th>
+                            <th>10ユーザー</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>初期設定費用</td>
+                            <td>¥350,000</td>
+                            <td>¥400,000</td>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>月額利用料</td>
+                            <td>¥33,000</td>
+                            <td>¥50,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 class="section__title">
+                    料金事例が入ります
+                </h2>
+                <div class="pricing-examples__row">
+                    <div class="pricing-examples__box pricing-examples__box--outline">
+                        <p class="pricing-examples__label">初期費用</p>
+                        <p class="pricing-examples__text">金額が入ります</p>
+                    </div>
+                    <span class="pricing-examples__plus">+</span>
+                    <div class="pricing-examples__box pricing-examples__box--outline">
+                        <p class="pricing-examples__label">月額費用</p>
+                        <p class="pricing-examples__text">金額が入ります</p>
+                    </div>
+                    <img src="./assets/images/flag-2.svg" alt="">
+                    <div class="pricing-examples__box pricing-examples__box--filled">
+                        <p class="pricing-examples__text">金額が入ります</p>
+                        <p class="pricing-examples__total">総額</p>
+                    </div>
+                </div>
+
+                <div class="pricing-examples__row">
+                    <div class="pricing-examples__box pricing-examples__box--outline">
+                        <p class="pricing-examples__label">初期費用</p>
+                        <p class="pricing-examples__text">金額が入ります</p>
+                    </div>
+                    <span class="pricing-examples__plus">+</span>
+                    <div class="pricing-examples__box pricing-examples__box--outline">
+                        <p class="pricing-examples__label">月額費用</p>
+                        <p class="pricing-examples__text">金額が入ります</p>
+                    </div>
+                    <img src="./assets/images/flag-2.svg" alt="">
+                    <div class="pricing-examples__box pricing-examples__box--filled">
+                        <p class="pricing-examples__text">金額が入ります</p>
+                        <p class="pricing-examples__total">総額</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comparison">
+            <div class="container">
+                <h1 class="section__title">― 他社との違い ―</h1>
+
+                <div class="comparison-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 20%;"></th>
+                                <th style="width: 26.7%;">A社</th>
+                                <th style="width: 26.7%;">B社</th>
+                                <th style="width: 26.7%;">C社</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>初期費用</td>
+                                <td class="price">¥252,450</td>
+                                <td class="price">¥275,000</td>
+                                <td class="price">¥165,000</td>
+                            </tr>
+                            <tr>
+                                <td>月額</td>
+                                <td class="price">¥574,750</td>
+                                <td class="price">¥624,800</td>
+                                <td class="price">¥484,000</td>
+                            </tr>
+                            <tr>
+                                <td>開発費用</td>
+                                <td class="price">¥574,750</td>
+                                <td class="price">¥624,800</td>
+                                <td class="price">¥484,000</td>
+                            </tr>
+                            <tr>
+                                <td>カスタマイズ性</td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>基本機能</td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>外部連携</td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                                <td>
+                                    <input type="radio" class="checkbox-circle">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="hubspot-card">
+                        <div class="hubspot-header">
+                            <img src="./assets/images/e5f5b4d5ceb42da6bcb8fdf3d1f68d7fdee2f710.png" alt="">
+                        </div>
+                        <div class="hubspot-sections">
+                            <div class="hubspot-section">
+                                <div class="hubspot-price">300,000円 <br>毎月3社限定で0円</div>
+                            </div>
+                            <div class="hubspot-section">
+                                <div class="hubspot-price">33,000円〜</div>
+                            </div>
+                            <div class="hubspot-section">
+                                <div class="hubspot-price">2,000,000円〜</div>
+                            </div>
+                            <div class="hubspot-price"><input class="checkbox-circle" type="radio"></div>
+                            <div class="hubspot-price"><input class="checkbox-circle" type="radio"></div>
+                            <div class="hubspot-price"><input class="checkbox-circle" type="radio"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section> 
+
+        <section class="campaign-cta">
+            <div class="container">
+                <div class="campaign-cta__content">
+                    <div class="campaign-cta__header">
+                        <div class="campaign-cta__badge">
+                            毎月3社 <br>限定
+                        </div>
+                        <h2 class="campaign-cta__title">
+                            初期費用無料<br>
+                            キャンペーン実施中
+                        </h2>
+                        <span class="campaign-cta__slash campaign-cta__slash--left">\</span>
+                        <span class="campaign-cta__slash campaign-cta__slash--right">/</span>
+                    </div>
+                    <a href="#" class="campaign-cta__button">
+                        資料請求・導入のご相談はこちらから
+                        <span class="campaign-cta__arrow">▶</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline">
+            <div class="container">
+                <h1 class="section__title">ー　導入の流れ　ー</h1>
+
+                <div class="timeline__steps__container">
+                    <div class="timeline__step">
+                        <div class="step__number">
+                            <div><span>STEP 01</span></div>
+                            <div class="step__img"><img src="./assets/images/star.svg" alt=""></div>
+                        </div>
+                        <div class="step__content">
+                            <h3>こちらのフォームよりお問い合わせください</h3>
+                            <div class="step__content__desc">文章文章文章文章文章文章文章文章 文章文章文章文章文章 文章文章文章文章文章</div>
+                        </div>
+                    </div>
+                    <div class="steps__divider"></div>
+                    <div class="timeline__step">
+                        <div class="step__number">
+                            <div><span>STEP 02</span></div>
+                            <div class="step__img"><img src="./assets/images/monitor.png" alt=""></div>
+                        </div>
+                        <div class="step__content">
+                            <h3>デモ説明・ヒアリング</h3>
+                            <div class="step__content__desc">改めてお時間を頂戴し、貴社に最適なプラン、システムをご提案させていただきます。</div>
+                        </div>
+                    </div>
+                    <div class="steps__divider"></div>
+                    <div class="timeline__step">
+                        <div class="step__number">
+                            <div><span>STEP 03</span></div>
+                            <div class="step__img"><img src="./assets/images/poll-h 1.png" alt=""></div>
+                        </div>
+                        <div class="step__content">
+                            <h3>ご提案</h3>
+                            <div class="step__content__desc">
+                                改めてお時間を頂戴し、貴社に最適なプラン、システムをご提案させていただきます。、貴社に最適なプラン、システムをご提案させていただきます。</div>
+                        </div>
+                    </div>
+                    <div class="steps__divider"></div>
+                    <div class="timeline__step">
+                        <div class="step__number">
+                            <div><span>STEP 04</span></div>
+                            <div class="step__img"><img src="./assets/images/briefcase-arrow-right 1.png" alt=""></div>
+                        </div>
+                        <div class="step__content">
+                            <h3>要件定義</h3>
+                            <div class="step__content__desc">ご発注をいただけた場合は、ご提案内容からさらに深ぼってシステムの詳細仕様をすり合わせていただきます。</div>
+                        </div>
+                    </div>
+                    <div class="steps__divider"></div>
+                    <div class="timeline__step">
+                        <div class="step__number">
+                            <div><span>STEP 05</span></div>
+                            <div class="step__img"><img src="./assets/images/system-cloud 1.png" alt=""></div>
+                        </div>
+                        <div class="step__content">
+                            <h3>システム設計・開発</h3>
+                            <div class="step__content__desc">開発が必要になった場合は、設計・開発を進めさせていただきます。 スケジュールはお客様によって違いがございます。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps__divider"></div>
+                    <div class="timeline__step">
+                        <div class="step__number">
+                            <div><span>STEP 06</span></div>
+                            <div class="step__img"><img src="./assets/images/system-cloud 1.png" alt=""></div>
+                        </div>
+                        <div class="step__content">
+                            <h3>導入・運用</h3>
+                            <div class="step__content__desc">導入準備、運用テスト後に、既存ツールのデータを入れ込んで稼働開始となります。</div>
+                        </div>
+                    </div>
+                    <div class="steps__divider"></div>
+                    <div class="timeline__step">
+                        <div class="step__number">
+                            <div><span>STEP 07</span></div>
+                            <div class="step__img"><img src="./assets/images/manhole 1.png" alt=""></div>
+                        </div>
+                        <div class="step__content">
+                            <h3>保守</h3>
+                            <div class="step__content__desc">アップデート内容のメール通知・機能追加・カスタマイズ・お問い合わせ等のサポート体制を完備しています。</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="payment__services">
+            <div class="container">
+                <h1 class="section__title">ー　導入事例　ー</h1>
+                <div class="payment__services__wrapper">
+
+                    <div class="payment__services__card">
+                        <div class="service__card__img">
+                            <img src="./assets/images/a46d0afb0390fa9ff2cceb3eb63b5c2a96461c1e.png" alt="">
+                            <img src="./assets/images/5c7bcc932459ad2ef69ba70f650564938c1f768e.png" alt="">
+                        </div>
+                        <div class="service__card__body">
+                            <h3>SBペイメントサービス様</h3>
+                            <p>コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコ</p>
+                        </div>
+                    </div>
+                    <div class="payment__services__card">
+                        <div class="service__card__img">
+                            <img src="./assets/images/a46d0afb0390fa9ff2cceb3eb63b5c2a96461c1e.png" alt="">
+                            <img src="./assets/images/5c7bcc932459ad2ef69ba70f650564938c1f768e.png" alt="">
+                        </div>
+                        <div class="service__card__body">
+                            <h3>SBペイメントサービス様</h3>
+                            <p>コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコ</p>
+                        </div>
+                    </div>
+                    <div class="payment__services__card">
+                        <div class="service__card__img">
+                            <img src="./assets/images/a46d0afb0390fa9ff2cceb3eb63b5c2a96461c1e.png" alt="">
+                            <img src="./assets/images/5c7bcc932459ad2ef69ba70f650564938c1f768e.png" alt="">
+                        </div>
+                        <div class="service__card__body">
+                            <h3>SBペイメントサービス様</h3>
+                            <p>コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコ</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="other__services">
+            <div class="container">
+                <h1 class="section__title">ー　その他のサービス事業　ー</h1>
+                <img src="./assets/images/screencapture-gigxit-co-jp-cloud-products-solcloud-2024-10-09-06_50_16 2.svg"
+                    alt="">
+        </section>
+
+        <section class="form">
+            <h1 class="section__title">ー　導入事例　ー</h1>
+            <div class="container">
+                <div class="form-section">
+                    <h2 class="section-title">お問い合わせ内容</h2>
+                    <p class="section-description">お問い合わせには、以下の必須項目の入力をお願いいたします。</p>
+
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="lastName">姓</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="firstName">名</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">会社・組織名</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">メールアドレス</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="emailConfirm">メールアドレス</label>
+                                <input type="email" id="emailConfirm" name="emailConfirm" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">電話番号</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label for="message">お問い合わせ内容</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="privacy-section">
+                        <h3 class="privacy-title">個人情報の取り扱いについて</h3>
+
+                        <div class="confirmation-box">
+                            <h3 class="confirmation-title">確認欄</h3>
+                            <p class="confirmation-text">
+                                <input required type="checkbox">
+                                個人情報の取扱いについて、同意の上送信します。原則としていただいた個人情報は、第三者に提供することはございません。
+                            </p>
+                            <p class="confirmation-text">
+                                当社の個人情報保護に関する取り組みについては、<a class="privacy-link" href="#">プライバシーポリシーの個人情報の取り扱いについて</a>
+                                をご覧ください。 以上の個人情報の利用目的等にご同意いただける場合は、入力内容を送信ください。 入力された情報は、当社委託先にて管理されます。
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="submit-container">
+                        <button type="submit" class="submit-btn" onclick="handleSubmit(event)">確認</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-column">
+                <h3>TOP</h3>
+                <ul>
+                    <li><a href="#">インフォメーション</a></li>
+                    <li><a href="#">導入事例／資料</a></li>
+                    <li><a href="#">お役立ちブログ</a></li>
+                    <li><a href="#">ITビジネスパートナー募集</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">メールマガジン登録</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>サービス</h3>
+                <ul>
+                    <li><a href="#">コンサルティング</a></li>
+                    <li><a href="#">システム／クラウド開発</a></li>
+                    <li><a href="#">お役立ちブログ</a></li>
+                    <li><a href="#">ＡＩ／クラウド製品</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>インフォメーション</h3>
+                <ul>
+                    <li><a href="#">導入事例／資料</a></li>
+                    <li><a href="#">お役立ちブログ</a></li>
+                    <li><a href="#">ITビジネスパートナー募集</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">メールマガジン登録</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>企業情報</h3>
+                <ul>
+                    <li><a href="#">採用情報</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-logo"><img src="./assets/images/image 86.svg" alt=""></div>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="./assets/images/facebook 1.svg" alt=""></a>
+                    <a href="#" aria-label="Twitter"><img src="./assets/images/twitter 1.svg"></a>
+                    <a href="#" aria-label="Instagram"><img src="./assets/images/instagram 1.svg" alt=""></a>
+                    <a href="#" aria-label="Line"><img src="./assets/images/line 1.svg" alt=""></a>
+                    <a href="#" aria-label="YouTube"><img src="./assets/images/youtube 1.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
