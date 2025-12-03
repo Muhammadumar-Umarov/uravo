@@ -4,6 +4,10 @@ console.log("salom");
 const burger = document.getElementById("burger");
 const mobileMenu = document.getElementById("mobileMenu");
 
+window.onload = () => {
+    scrollTo(0,0)
+}
+
 burger.addEventListener("click", () => {
     burger.classList.toggle("active");
     mobileMenu.style.display =
